@@ -1,0 +1,2 @@
+C:\Users\Delphine\Documents\Tp Visual Studio\TP Réservation Vetements\TP Réservation Vetements\bin\Debug\TP Réservation Vetements.exe.config
+C:\Users\Delphine\Documents\Tp_Visual_Studio\TP_Réservation_Vetements\TP Réservation Vetements\bin\Debug\TP Réservation Vetements.exe.config
