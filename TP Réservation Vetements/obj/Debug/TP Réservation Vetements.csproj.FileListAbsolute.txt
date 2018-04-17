@@ -1,2 +1,10 @@
 C:\Users\Delphine\Documents\Tp Visual Studio\TP Réservation Vetements\TP Réservation Vetements\bin\Debug\TP Réservation Vetements.exe.config
 C:\Users\Delphine\Documents\Tp_Visual_Studio\TP_Réservation_Vetements\TP Réservation Vetements\bin\Debug\TP Réservation Vetements.exe.config
+C:\Users\Delphine\Documents\Tp_Visual_Studio\TP_Réservation_Vetements\TP Réservation Vetements\bin\Debug\TP Réservation Vetements.exe
+C:\Users\Delphine\Documents\Tp_Visual_Studio\TP_Réservation_Vetements\TP Réservation Vetements\bin\Debug\TP Réservation Vetements.pdb
+C:\Users\Delphine\Documents\Tp_Visual_Studio\TP_Réservation_Vetements\TP Réservation Vetements\obj\Debug\TP Réservation Vetements.csprojResolveAssemblyReference.cache
+C:\Users\Delphine\Documents\Tp_Visual_Studio\TP_Réservation_Vetements\TP Réservation Vetements\obj\Debug\TP_Réservation_Vetements.Form1.resources
+C:\Users\Delphine\Documents\Tp_Visual_Studio\TP_Réservation_Vetements\TP Réservation Vetements\obj\Debug\TP_Réservation_Vetements.Properties.Resources.resources
+C:\Users\Delphine\Documents\Tp_Visual_Studio\TP_Réservation_Vetements\TP Réservation Vetements\obj\Debug\TP Réservation Vetements.csproj.GenerateResource.Cache
+C:\Users\Delphine\Documents\Tp_Visual_Studio\TP_Réservation_Vetements\TP Réservation Vetements\obj\Debug\TP Réservation Vetements.exe
+C:\Users\Delphine\Documents\Tp_Visual_Studio\TP_Réservation_Vetements\TP Réservation Vetements\obj\Debug\TP Réservation Vetements.pdb
