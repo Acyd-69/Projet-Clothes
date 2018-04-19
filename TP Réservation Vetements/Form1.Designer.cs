@@ -46,9 +46,13 @@
             this.Taille = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.panierToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.type = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.taillet = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Panier = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // Aperçu
@@ -63,8 +67,7 @@
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.vêtementToolStripMenuItem,
-            this.panierToolStripMenuItem});
+            this.vêtementToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(950, 24);
@@ -210,18 +213,43 @@
             this.checkBox1.Text = "Cocher pour ajouter au panier";
             this.checkBox1.UseVisualStyleBackColor = true;
             // 
-            // panierToolStripMenuItem
+            // dataGridView1
             // 
-            this.panierToolStripMenuItem.Name = "panierToolStripMenuItem";
-            this.panierToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
-            this.panierToolStripMenuItem.Text = "Panier";
-            this.panierToolStripMenuItem.Click += new System.EventHandler(this.panierToolStripMenuItem_Click);
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.type,
+            this.taillet});
+            this.dataGridView1.Location = new System.Drawing.Point(12, 91);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(240, 281);
+            this.dataGridView1.TabIndex = 14;
+            // 
+            // type
+            // 
+            this.type.HeaderText = "type";
+            this.type.Name = "type";
+            // 
+            // taillet
+            // 
+            this.taillet.HeaderText = "taille";
+            this.taillet.Name = "taillet";
+            // 
+            // Panier
+            // 
+            this.Panier.AutoSize = true;
+            this.Panier.Location = new System.Drawing.Point(13, 55);
+            this.Panier.Name = "Panier";
+            this.Panier.Size = new System.Drawing.Size(46, 13);
+            this.Panier.TabIndex = 15;
+            this.Panier.Text = "Panier : ";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(950, 441);
+            this.Controls.Add(this.Panier);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.Taille);
@@ -231,11 +259,12 @@
             this.Controls.Add(this.menuStrip1);
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Commande tes Vêtements";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -260,7 +289,10 @@
         private System.Windows.Forms.Label Taille;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.ToolStripMenuItem panierToolStripMenuItem;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn type;
+        private System.Windows.Forms.DataGridViewTextBoxColumn taillet;
+        private System.Windows.Forms.Label Panier;
     }
 }
 
