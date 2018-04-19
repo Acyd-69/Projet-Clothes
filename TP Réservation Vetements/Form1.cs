@@ -61,5 +61,20 @@ namespace TP_Réservation_Vetements
         {
             this.pictureBox1.ImageLocation = "C:/Users/Delphine/Documents/Tp_Visual_Studio/TP_Réservation_Vetements/Images/Chaussure_Femme.jpg";
         }
+
+        private void panierToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form2 forme2 = new Form2();
+            forme2.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if(checkBox1.Checked)
+            {
+                Form2 f2 = new Form2();
+                f2.Show();
+            }
+        }
     }
 }
