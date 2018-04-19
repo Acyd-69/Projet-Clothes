@@ -8,3 +8,6 @@ C:\Users\Delphine\Documents\Tp_Visual_Studio\TP_Réservation_Vetements\TP Réser
 C:\Users\Delphine\Documents\Tp_Visual_Studio\TP_Réservation_Vetements\TP Réservation Vetements\obj\Debug\TP Réservation Vetements.csproj.GenerateResource.Cache
 C:\Users\Delphine\Documents\Tp_Visual_Studio\TP_Réservation_Vetements\TP Réservation Vetements\obj\Debug\TP Réservation Vetements.exe
 C:\Users\Delphine\Documents\Tp_Visual_Studio\TP_Réservation_Vetements\TP Réservation Vetements\obj\Debug\TP Réservation Vetements.pdb
+C:\Users\milan\Documents\Isitech\1ère Année\Informatique\Tp\Tp C#\Projet-Clothes\TP Réservation Vetements\bin\Debug\TP Réservation Vetements.exe.config
+C:\Users\milan\Documents\Isitech\1ère Année\Informatique\Tp\Tp C#\Projet-Clothes\TP Réservation Vetements\obj\Debug\TP Réservation Vetements.exe
+C:\Users\milan\Documents\Isitech\1ère Année\Informatique\Tp\Tp C#\Projet-Clothes\TP Réservation Vetements\obj\Debug\TP Réservation Vetements.pdb
