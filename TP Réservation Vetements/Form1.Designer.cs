@@ -178,6 +178,7 @@
             this.button1.Text = "Valider";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.button1.Hide();
             // 
             // Taille
             // 
@@ -187,6 +188,7 @@
             this.Taille.Size = new System.Drawing.Size(41, 13);
             this.Taille.TabIndex = 11;
             this.Taille.Text = "Taille : ";
+            this.Taille.Hide();
             // 
             // comboBox1
             // 
@@ -202,6 +204,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(68, 21);
             this.comboBox1.TabIndex = 12;
+            this.comboBox1.Hide();
             // 
             // checkBox1
             // 
@@ -212,6 +215,7 @@
             this.checkBox1.TabIndex = 13;
             this.checkBox1.Text = "Cocher pour ajouter au panier";
             this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.Hide();
             // 
             // dataGridView1
             // 
